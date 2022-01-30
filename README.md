@@ -2,6 +2,8 @@
 This code is copyright of rakshitdogra. Don't try to claim or steal the code for own projects. Stealing and claiming code is strictly prohibited.
 Copyright (c) 2022 rakshitdogra
 
+[This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 [![MIT](https://img.shields.io/github/license/rakshitdogra/yt-video-downloader)](https://github.com/rakshitdogra/yt-video-downloader/blob/main/LICENSE)
 
 # CALBOX
