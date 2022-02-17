@@ -255,8 +255,8 @@ while True:
             v_rectangle(height, width, length)  
               
         elif choice3 == 3:    
-            side = int(input("Enter Height of Rectangle:"))  
-            v_cube(side**3)  
+            side = int(input("Enter Side of square:"))  
+            print(side**3)  
   
         elif choice3 == 4:  
             break  
@@ -295,7 +295,7 @@ while True:
             print("The factorial of",num,"is",factorial)
 
     elif choice1 == 8:  
-        print("\nCALCULATE Volume")  
+        print("\nCALCULATE Square Root")  
         print("1. Find Square root")  
         print("2. Find Square root of Complex Numbers")   
         print("3. Exit")  
@@ -309,7 +309,8 @@ while True:
         elif choice3 == 2:  
             num = eval(input('Enter a number: '))
             num_sqrt = cmath.sqrt(num)
-            print('The square root of {0} is {1:0.3f}+{2:0.3f}j'.format(num ,num_sqrt.real,num_sqrt.imag))
+            print('The square root of {0} is {1:0.3f}+{2:0.3f}j'
+            .format(num ,num_sqrt.real,num_sqrt.imag))
 
         elif choice3 == 3:  
             break  
@@ -431,9 +432,7 @@ while True:
     elif choice1 == 16:  
         print("\nCOORDINATE GEOMETRY")  
         print("1. Plot the graph")  
-        print("2. Distance between two points")  
-        print("3. ")  
-        print("4. ")  
+        print("2. Exit ")  
         choice54 = int(input("Enter the Choice: "))  
   
         if choice54 == 1:
@@ -472,7 +471,6 @@ while True:
                 print("Enter Coordinates of 3rd point")
                 x3 =int(input("Enter the value of x3: "))
                 y3 =int(input("Enter the value of y3: "))
-                print("Enter Coordinates of 4th point")
 
                 x=[x1,x2,x3]
                 y=[y1,y2,y3]
